@@ -11,12 +11,12 @@ With this solution, Veeam Admins (or Security Admins ;) ) can identify vulnerabi
 
 ### System Requirements
 
-- ** Operating System Support**: Windows 10+
-- ** Veeam Backup & Replication Version**: 12.x (11 can work but not tested)
-- ** Backups Support**: Only Backups with Linux Operating System and backups from vSphere
-- ** CPU**: 1 core
-- ** RAM**: 512 MB
-- ** Dis**k: 500MB
+- **Operating System Support**: Windows 10+
+- **Veeam Backup & Replication Version**: 12.x (11 can work but not tested)
+- **Backups Support**: Only Backups with Linux Operating System and backups from vSphere
+- **CPU**: 1 core
+- **RAM**: 512 MB
+- **Disk**: 500MB
 
 
 
