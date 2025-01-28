@@ -1,16 +1,14 @@
-# VeeamHub Repository Template
+# vScan Vulnerability Scanner
+**Author**: Marco Escobar marco.escobar@veeam.com
 
-Here are instructions on how to use this template:
+This is an **open-source** project created as a Security scanning tool for Desktops that integrates with Veeam Backup & Replication to perform vulnerability assessments on backup data without needing a full restore. 
+It leverages Veeam Data Integration API to mount backup content directly to Linux servers and scan them using open-source security tools [Trivy](https://github.com/aquasecurity/trivy) and [Grype](https://github.com/anchore/grype).
+Why is this solution created? In the event of a disaster or security incident, when the Veeam Admin needs to recover a server image (whether it's the latest or a previous copy), they need to know what vulnerabilities exist in that Veeam Backup.
+While Veeam can detect malware, ransomware, IoC, etc,  it doesn't detect vulnerabilities. 
+For example, Consider these scenarios: What if a Veeam Admin restores a server image that contains a vulnerable version of OpenSSL? What if they restore an image with vulnerabilities in the CISA KEV catalog? 
+If the attacker is in the network, they can exploit these vulnerabilities and execute any persistence tool.
+With this solution, Veeam Admins (or Security Admins) can identify vulnerabilities in their Veeam Backups and implement necessary mitigation measures before deploying the data to production or exposing it to the internet.
 
-* Navigate to the [main page of this repository](https://github.com/VeeamHub/veeamhub-template)
-* Follow instructions for [creating a repository from a template](https://help.github.com/en/articles/creating-a-repository-from-a-template)
-  * _Repository names **must** have the prefix:_ **veeam-**
-  * Example: _veeam-repo-name_
-* Replace **all** repository-specific links
-  * `issues` link in _README.md_
-  * `create an issue` link in _README.md_
-  * `opening a new issue` link in _CONTRIBUTING.md_
-* Remove the instructions from this section and replace it with information describing this repository.
 
 ## 📗 Documentation
 
