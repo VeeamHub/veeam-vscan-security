@@ -7,16 +7,16 @@ Why is this solution created? In the event of a disaster or security incident, w
 While Veeam can detect malware, ransomware, IoC, etc,  it doesn't detect vulnerabilities. 
 For example, Consider these scenarios: What if a Veeam Admin restores a server image that contains a vulnerable version of OpenSSL? What if they restore an image with vulnerabilities in the CISA KEV catalog? 
 If the attacker is in the network, they can exploit these vulnerabilities and execute any persistence tool.
-With this solution, Veeam Admins (or Security Admins) can identify vulnerabilities in their Veeam Backups and implement necessary mitigation measures before deploying the data to production or exposing it to the internet.
+With this solution, Veeam Admins (or Security Admins ;) ) can identify vulnerabilities in their Veeam Backups and implement necessary mitigation measures before deploying the data to production or exposing it to the internet.
 
 ### System Requirements
 
-Operating System Support: Windows 10+
-Veeam Backup & Replication Version: 12.x (11 can work but not tested)
-Backups Support: Only Backups with Linux Operating System and backups from vSphere
-CPU: 1 core
-RAM: 512 MB
-Disk: 500MB
+- ** Operating System Support**: Windows 10+
+- ** Veeam Backup & Replication Version**: 12.x (11 can work but not tested)
+- ** Backups Support**: Only Backups with Linux Operating System and backups from vSphere
+- ** CPU**: 1 core
+- ** RAM**: 512 MB
+- ** Dis**k: 500MB
 
 
 
