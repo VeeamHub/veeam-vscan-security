@@ -2,7 +2,7 @@
 
 **Author**: Marco Escobar marco.escobar@veeam.com
 
-<center><img src="https://github.com/user-attachments/assets/3d3ea97b-c580-4da4-ab6f-7ec2a845b89a" alt="vScan Dashboard" style="width:50%; height:auto;"></center>
+<p align="center"><img src="https://github.com/user-attachments/assets/3d3ea97b-c580-4da4-ab6f-7ec2a845b89a" alt="vScan Dashboard" style="width:50%; height:auto;"></p
 
 This is an **Open-Source** project created as a Security scanning tool that integrates with Veeam Backup & Replication to perform vulnerability assessments on backup data without needing a full restore. 
 It leverages Veeam Data Integration API to mount backup content directly to Linux servers and scan them using open-source security tools [Trivy](https://github.com/aquasecurity/trivy) and [Grype](https://github.com/anchore/grype).
