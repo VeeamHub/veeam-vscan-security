@@ -1,0 +1,56 @@
+{
+  "appId": "com.vscan.securityscanner",
+  "productName": "vScan Security Scanner",
+  "directories": {
+    "output": "dist-electron",
+    "buildResources": "resources"
+  },
+  "files": [
+    "dist/**/*",
+    "dist-electron/**/*",
+    "!dist-electron/builder/**/*",
+    "!**/*.map"
+  ],
+  "extraResources": [
+    {
+      "from": "resources",
+      "to": "./",
+      "filter": [
+        "**/*",
+        "!server/**/*"
+      ]
+    },
+    {
+      "from": "resources/server",
+      "to": "server",
+      "filter": ["**/*"]
+    },
+    {
+      "from": "node/win-x64", 
+      "to": "./node",
+      "filter": ["**/*"]
+    }
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "portable",
+        "arch": ["x64"]
+      }
+    ],
+    "icon": "resources/icons/icon.ico",
+    "requestedExecutionLevel": "requireAdministrator"
+  },
+  "asar": true,
+  "asarUnpack": [
+    "resources/**/*",
+    "dist-electron/preload/**/*",
+    "node_modules/electron-log/**/*",
+    "node_modules/ssh2/**/*",
+    "node_modules/sqlite3/**/*",
+    "./node/**/*" 
+  ],
+  "extraMetadata": {
+    "main": "dist-electron/main/index.js"
+  }
+}

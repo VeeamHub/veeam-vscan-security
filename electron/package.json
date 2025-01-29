@@ -1,0 +1,8 @@
+{
+    "name": "vscan-electron",
+    "private": true,
+    "type": "module",
+    "dependencies": {
+      "electron-log": "^5.0.1"
+    }
+  }
