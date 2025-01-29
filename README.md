@@ -47,8 +47,7 @@ With this solution, Veeam Admins (or Security Admins ;) ) can identify vulnerabi
 ### Release Notes
 
 - This initial version supports scanning of linux operating systems backed up from **vSphere** protected by Veeam
-- If the application is recognized as malware, review this link: https://github.com/electron-userland/electron-builder/issues/6474, I already submitted this   
-  version to be analized by Microsoft.
+- If the application is recognized as malware, review this link: https://github.com/electron-userland/electron-builder/issues/6474; this version has already been submitted for analysis by Microsoft.
 
 ### How To Use
 
