@@ -10,7 +10,7 @@ Why is this solution created? In the event of a disaster or security incident, w
 While Veeam can detect malware, ransomware, IoC, etc,  it doesn't detect vulnerabilities. 
 For example, Consider these scenarios: What if a Veeam Admin restores a server image that contains a vulnerable version of OpenSSL? What if they restore an image with vulnerabilities in the CISA KEV catalog? 
 If the attacker is in the network, they can exploit these vulnerabilities and execute any persistence tool.
-With this solution, Veeam Admins (or Security Admins ;) ) can identify vulnerabilities in their Veeam Backups and implement necessary mitigation measures before deploying the data to production or exposing it to the internet.
+With this solution, Veeam Admins (or Security Admins ;) ) can identify vulnerabilities in their Veeam Backups and implement necessary mitigation measures before restore the server to production or exposing it to the internet.
 
 **This is a Desktop Application to be used in the workstation of Veeam Admins or Security Admins.**
 
