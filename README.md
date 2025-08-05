@@ -22,7 +22,7 @@ With this solution, Veeam Admins (or Security Admins ;) ) can identify vulnerabi
 - **CPU**: 1 core
 - **RAM**: 512 MB
 - **Disk**: 500MB
-- **Linux Server for Scan**: Rocky Linux 9.x
+- **Linux Server for Scan**: Rocky Linux 9.x | without Firewall
 - **Credentials Linux Server for Scan**: root or user with sudo
 - **Ports**: 9392, 22, 587, 3260, 3261, 326x
 - **Internet Access**
@@ -75,7 +75,7 @@ With this solution, Veeam Admins (or Security Admins ;) ) can identify vulnerabi
 - After a successful connection, go to Linux Scanner.
 - In Linux Scanners, Select a Linux Scanner (Preferred Proxy) from VBR ane enter the credentials. If you dont want use a Linux from VBR you can enter manually a 
   Linux server to connect.
-- Then click in "" after a successful test and installation the Connection manager will update the status to Connected.
+- Then click in "Save & Connect" after a successful test and installation the Connection manager will update the status to Connected.
 - If you want configure Email Notification, go to "Notifications" and enter the data, First Test Email, then Save the Config.
 - Go to "Scans" Select VBR, in "Select Server" select the server to Scan, then Select Restore point, Disk and "Add to Queue" if you want add multiples 
   servers always add to Queue and then clic in "Mount".
