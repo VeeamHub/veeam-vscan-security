@@ -1,4 +1,4 @@
-# vScan Vulnerability Scanner 1.0.0
+# vScan Vulnerability Scanner 1.5.0
 
 **Author**: Marco Escobar marco.escobar@veeam.com
 
